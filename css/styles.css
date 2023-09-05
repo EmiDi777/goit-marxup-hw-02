@@ -44,25 +44,16 @@ color: #2e2f42;
 
 }
 
-.contacts-mail {
+.contacts-mp {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contacts-mail:hover, .contacts-mail:focus {
+.contacts-mp:hover, .contacts-mp:focus {
   color: #404bbf;
 }
 
-.contacts-phone {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contacts-phone:hover, .contacts-phone:focus {
-    color: #404bbf;
-  }
 
   /* Section 1 */
 
@@ -78,7 +69,7 @@ color: #2e2f42;
     color: #ffffff;
   }
 
-  .order {
+  .order-service {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -86,9 +77,10 @@ color: #2e2f42;
     line-height: 1.5;
     color: #ffffff;
     cursor: pointer;
+    letter-spacing: 0.04em
   }
 
-  .order:hover, .order:focus {
+  .order-service:hover, .order-service:focus {
     background-color: #404BBF;
   }
 
@@ -106,4 +98,28 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+  }
+
+
+  /* Our team */
+
+  .our-team {
+    background-color: #F4F4FD;
+  }
+
+  .our-team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+
+  .person {
+    background-color: #FFFFFF;
+  }
+
+  .person-img {
+    background-color: #FFFFFF;
   }
